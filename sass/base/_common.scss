@@ -3,7 +3,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  background-color: #ffffff;
+  background-color: $main-bg-color;
 }
 
 button {
@@ -52,8 +52,6 @@ legend {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   margin: -1px;
 }
-/*# sourceMappingURL=main.css.map */
